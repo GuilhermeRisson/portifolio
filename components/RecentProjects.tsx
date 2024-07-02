@@ -9,8 +9,8 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
-        <span className="text-purple">recent projects</span>
+        Projetos {" "}
+        <span className="text-purple"> Recentes</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map((item) => (
@@ -19,7 +19,7 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title="/ui.aceternity.com"
+              title={item.link}
               href="https://twitter.com/mannupaaji"
             >
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh]  mb-10">
