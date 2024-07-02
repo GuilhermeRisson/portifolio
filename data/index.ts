@@ -175,7 +175,7 @@ export const workExperience = [
   {
     id: 1,
     title: "Desenvolvedor full-stack",
-    desc: "HTML & CSS, JS, PHP, REACT, LARAVEL, NEXT.JS",
+    desc: "HTML & CSS, Js, PHP, React, Laravel, Next.JS, TypeScript",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
