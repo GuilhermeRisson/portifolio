@@ -26,7 +26,7 @@ const Footer = () => {
                 {socialMedia.map((profile) => (
                     <div key={profile.id} className='w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rouded-lg border border-black-300'> 
                         <a href={profile.href} target='_blank'>
-                            <img src={profile.img} alt={profile.id} width={20} height={20} />
+                            <img src={profile.img} width={20} height={20} />
                         </a>
                     </div>
                 ))}
