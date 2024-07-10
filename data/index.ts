@@ -188,8 +188,8 @@ export const workExperience = [
   },
   {
     id: 3,
-    title: "Freelance",
-    desc: "Atuo tambem como freelance",
+    title: "Freelancer",
+    desc: "Atuo tambem como freelancer",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
